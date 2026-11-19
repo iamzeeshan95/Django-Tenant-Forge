@@ -2,6 +2,9 @@
 A scalable, production-ready B2B SaaS boilerplate built with Django and PostgreSQL.
 This template provides a robust foundation for building multi-tenant applications using schema-based isolation, ensuring strict data separation between clients while maintaining a single, unified codebase. It includes dynamic subdomain routing and a global authentication system.
 
+<img width="760" height="416" alt="Screenshot 2026-11-19 214809" src="https://github.com/user-attachments/assets/bbe1d8e1-ab9e-45b7-a370-af71c03dd586" />
+
+
 #  Architecture Overview
 This project uses the Shared Database, Separate Schemas approach to multi-tenancy.
 
@@ -80,11 +83,11 @@ python manage.py shell
 
 from customers.models import Client, Domain
 
-# Create the isolated tenant schema
+- Create the isolated tenant schema
 tenant1 = Client(schema_name='tenant_alpha', name='Alpha Corp', paid_until='2027-12-31', on_trial=False)
 tenant1.save()
 
-# Map a local subdomain to the tenant
+- Map a local subdomain to the tenant
 domain1 = Domain(domain='alpha.localhost', tenant=tenant1, is_primary=True)
 domain1.save()
 exit()
