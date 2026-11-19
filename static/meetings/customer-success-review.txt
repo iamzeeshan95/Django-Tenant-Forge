@@ -1,0 +1,9 @@
+[00:00] Sam (Customer Success): Renewal risk is concentrated in three accounts
+that have not invited a second teammate.
+[00:31] Noor (Support): The common issue is that the invite control is hidden
+after the first project is created.
+[01:04] Sam (Customer Success): Let us add an in-product reminder and a weekly
+digest for workspace owners. I will draft the customer list by Friday.
+[01:42] Maya (Product): We will compare invite conversion before and after the
+reminder and keep the experiment limited to ten workspaces.
+

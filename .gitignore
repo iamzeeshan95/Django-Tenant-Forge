@@ -1,0 +1,26 @@
+# Environments
+venv/
+env/
+ENV/
+
+# Python
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+run_fix.py
+**/migrations/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+
+# Secrets
+.env
+.env.local
+.env.*
+
+# VS Code
+.vscode/

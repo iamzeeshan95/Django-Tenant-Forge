@@ -1,0 +1,9 @@
+[00:00] Maya (Product): The candidates are audit history, bulk project import,
+and custom roles.
+[00:27] Priya (Engineering): Audit history has the clearest trust benefit and
+the smallest integration risk.
+[00:55] Leo (Design): Custom roles solve a real enterprise problem, but the
+permission model needs more discovery first.
+[01:24] Maya (Product): We will prioritise audit history for the next sprint,
+then interview five admins about custom roles.
+

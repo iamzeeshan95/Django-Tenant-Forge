@@ -1,0 +1,23 @@
+[00:00] Maya (Product): Thanks everyone. Today we need to decide whether the
+new-user checklist should be a single guided flow or a set of smaller prompts.
+
+[00:18] Leo (Design): The test sessions strongly favoured the guided flow.
+People understood the next step, but they missed the optional workspace invite.
+
+[00:42] Priya (Engineering): We can ship the guided version without a schema
+change. I would like the invite step to stay dismissible so it does not block
+activation.
+
+[01:05] Maya (Product): Agreed. The success metric is reaching the first project,
+not collecting every profile field. Let us make the invite prompt secondary.
+
+[01:22] Leo (Design): I will update the prototype with a visible skip action and
+add an empty state for teams that have not invited anyone yet.
+
+[01:38] Priya (Engineering): I will add events for checklist_started,
+checklist_completed, and invite_prompt_skipped. That gives us a clean funnel.
+
+[01:52] Maya (Product): Great. Priya owns the instrumentation, Leo owns the
+prototype, and I will write the release note. We will review the funnel next
+Thursday before enabling it for all workspaces.
+
